@@ -1,0 +1,23 @@
+body{
+    background-image: url("../images/mosaic.png");
+}
+
+h1{
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+
+.container1 {
+    background-color: #a7864ac7;
+    color: white;
+}
+
+.container2{
+    background-color: green;
+    color: white;
+}
+
+
+
+
