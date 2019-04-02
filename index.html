@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>Crystals Collectors Game</title>
 </head>
 
@@ -35,7 +36,7 @@
         </div>
     </div>
 
-    <div class="container2 col-5 pb-2 pt-4">
+    <div class="container3 text-center font-weight-bold col-5 pt-2 mb-2">
         <div class="row">
             <p class="col-4">Random Number:</p>
             <p class="col-4">Wins:</p>
@@ -44,21 +45,30 @@
 
     </div>
 
-    <div class="container3 col-6 my-2">
+    <div class="container2 text-center col-5 pb-2 pt-4">
+        <div class="row">
+            <p id="computernumber" class="col-4"></p>
+            <p id="numberWins" class="col-4"></p>
+            <p id="numberLosses" class="col-4"></p>
+        </div>
+
+    </div>
+
+    <div class="container4 col-6 my-2">
 
         <div class="row">
 
             <button type="button" class="btn btn-light col-2 mx-1">
-                <img src="assets/images/214244.jpg" width="100" />
+                <img src="assets/images/214244.jpg" class="img-fluid" id="one" width="100" />
             </button>
             <button type="button" class="btn btn-light col-2 mx-1">
-                <img src="assets/images/477372.png" width="100" />
+                <img src="assets/images/477372.png" class="img-fluid" id="two" width="100" />
             </button>
             <button type="button" class="btn btn-light col-2 mx-1">
-                <img src="assets/images/477381.jpg" width="100" />
+                <img src="assets/images/477381.jpg" class="img-fluid" id="three" width="100" />
             </button>
             <button type="button" class="btn btn-light col-2 mx-1">
-                <img src="assets/images/477382.png" width="100" />
+                <img src="assets/images/477382.png" class="img-fluid" id="four" width="100" />
             </button>
 
         </div>
@@ -69,7 +79,7 @@
     <div class="container2 col-5 pb-2 pt-4">
             <div class="row">
                 <p class="col-4">Your total score is:</p>
-                <p class="col-4">X</p>
+                <p id="combined" class="col-4"></p>
                 
             </div>
     
