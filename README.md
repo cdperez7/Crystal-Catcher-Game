@@ -2,7 +2,7 @@
 
 This game was created for Northwestern's Coding Bootcamp homework assignment #4 with a goal of creating an interactive web-based game. This time, the app must dynamically update the HTML with the jQuery library.
 
-Play the game here: https://cdperez7.github.io/unit-4-game/
+Play the game here: https://cdperez7.github.io/Crystal-Catcher-Game/
 
 ### Instructions
 
